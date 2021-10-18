@@ -15,21 +15,22 @@
       }
 
       body {
-        background-image: url("");
+        background-image: url("pictures/wallhaven-z8dg9y_3840x2400.png");
         background-size: cover;
       }
 
       nav {
         display: flex;
-        
+        color: #fff;
         border-radius: 33px;
         justify-content: space-between;
-        align-items: baseline;
+        align-items: center;
       }
 
-      .logo {
+      nav .logo {
         padding: 10px 10px 20px 10px;
-        font-size: 55px;
+        font-size: 45px;
+        font-weight: 600;
       }
 
       nav ul {
@@ -64,17 +65,27 @@
         font-size: small;
         padding: 0px 600px 0px 0px;
       }
+      ul.container{
+        padding: 10px 50px 0px 15px;
+        font-weight: 500px;
+        filter: invert(96%) sepia(52%) saturate(243%) hue-rotate(325deg) brightness(112%) contrast(92%);
+      }
+      nav ul li a:hover{
+        background-color: rgb(165, 248, 220);
+        padding: 10px 15px;
+        border-radius: 30px;
+      }
     </style>
   </head>
 
   <body>
     <nav>
       <div class="logo">SENSHI</div>
-      <ul>
+      <ul class="container">
         <li class="box2"> <a href=""><img src="https://img.icons8.com/fluency-systems-regular/48/000000/home.png"
-              height="25pxpx" /></a></li>
-        <li class="box3"> <a href="#"><img src="pictures/bell.png" alt="" height="25px"></a></li>
-        <li class="box4"> <a href="#"><img src="pictures/logout.png" alt="" height="25px"></a></li>
+              height="20pxpx" /></a></li>
+        <li class="box3"> <a href="#"><img src="pictures/bell.png" alt="" height="20px"></a></li>
+        <li class="box4"> <a href="#"><img src="pictures/logout.png" alt="" height="20px"></a></li>
       </ul>
     </nav>
     <div class="para">
