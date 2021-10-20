@@ -1,0 +1,24 @@
+body{
+  color: white;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  background: url('img/gym.jpg');
+  background-size: cover;
+}
+.left{
+  border: 2px solid red;
+  display: inline-block;
+}
+.mid{
+  display: block;
+  width: 33%;
+  margin: 12px auto;
+  border: 2px solid green;
+}
+.right{
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  display: inline-block;
+  border: 2px solid yellow;
+}
