@@ -5,20 +5,47 @@ body{
   background: url('img/gym.jpg');
   background-size: cover;
 }
+.left img{
+  filter: invert(100%);
+}
 .left{
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 15px;
   border: 2px solid red;
   display: inline-block;
 }
 .mid{
   display: block;
   width: 33%;
-  margin: 12px auto;
+  margin: 20px auto;
   border: 2px solid green;
 }
 .right{
   position: absolute;
-  top: 0px;
+  top: 20px;
   right: 15px;
   display: inline-block;
   border: 2px solid yellow;
+}
+.navbar{
+  display: inline-block;
+  font-family :sans-serif;
+}
+.navbar li{
+  color: aliceblue;
+  display: inline-block;
+  font-size: 15px;
+}
+.navbar li a{
+  margin: auto;
+  color: aliceblue;
+  text-decoration: none;
+  padding: 10px 10px;
+}
+.navbar li a:hover{
+  background-color: rgb(51, 70, 70);
+  padding: 10px 10px;
+  border-radius: 35px;
 }
