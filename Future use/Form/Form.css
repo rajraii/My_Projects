@@ -49,15 +49,16 @@ input{
   flex-direction: column;
 }
 .btn{
+  color: #000;
   display: block;
   width: 80%;
   padding: 15px;
-  background-color: #EEEEEE;
+  background-color: #f1e9e9;
   border: none;
   border-radius: 20px;
   font-size: 20px;
   font-weight: 600;
-  opacity: 0.8;
+  opacity: 0.5;
   box-shadow: 0 4px8 px 0 rgba(0, 0, 0, 0.2), 0 6px 20 px 0 rgba(0,0,0,0.19);
 }
 .btn:hover{

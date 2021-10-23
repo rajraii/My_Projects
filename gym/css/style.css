@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 body{
   color: white;
   margin: 0px 0px;
   padding: 0px 0px;
   background: url('img/gym.jpg');
   background-size: cover;
+  font-family: 'Nunito', sans-serif
 }
 .left img{
   filter: invert(100%);
@@ -12,7 +14,7 @@ body{
   display: inline-block;
   position: absolute;
   top: 20px;
-  left: 15px;
+  left: 40px;
   border: 2px solid red;
   display: inline-block;
 }
@@ -20,7 +22,7 @@ body{
   display: block;
   width: 33%;
   margin: 20px auto;
-  border: 2px solid green;
+  border: 2px solid grey;
 }
 .right{
   position: absolute;
@@ -45,7 +47,34 @@ body{
   padding: 10px 10px;
 }
 .navbar li a:hover{
-  background-color: rgb(51, 70, 70);
+  background-color: rgb(53, 52, 52);
   padding: 10px 10px;
   border-radius: 35px;
+}
+.left img{
+  width: 50px;
+}
+.left{
+  text-align: center;
+  font-size: 15px;
+}
+.btn{
+  font-family: 'Nunito', sans-serif;
+  margin: 0px 12px;
+  background-color: black;
+  color: aliceblue;
+  padding: 3px 4px;
+  border: 2px solid grey;
+  border-radius: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: rgb(53, 52, 52);
+}
+.container{
+  margin: 262px 39px;
+  border: 2px solid;
+  padding: 75px;
+  border-radius: 20px;
 }
