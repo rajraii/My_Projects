@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events in JS</title>
+  </head>
+  <style>
+    #btn{
+      border: 2px solid black;
+      background-color: red;
+      border-radius: 3px;
+    }
+  </style>
+  <body>
+    <h1>This is Para</h1>
+    <p id="para">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum maiores
+      aliquid perspiciatis deserunt, obcaecati distinctio consectetur dolorem,
+      mollitia molestias necessitatibus consequuntur vel rem? Laudantium
+      deleniti nostrum alias debitis eos hic perferendis dolorem.
+    </p>
+    <button id="btn" onclick="toggleHide()">Show/Hide</button>
+    <script>
+      function toggleHide(){
+        let btn=document.getElementById('btn');
+        let para=document.getElementById('para');
+        if(para.style.display != 'none') para.style.display='none'
+        else para.style.display='block';
+      }
+    </script>
+  
+  </body>
+</html>
