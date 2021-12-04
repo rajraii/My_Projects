@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Set time out and set Interval</title>
+</head>
+<style>
+  *{
+    margin: 0px;
+    padding: 0px;
+    background-color:antiquewhite;
+  }
+  h1{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 100px;
+  }
+  .container{
+    margin: 50px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 900;
+  }
+  #time{
+    margin: 30px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: azure;
+    border-radius: 15px;
+  }
+
+</style>
+<body>
+  <h1>TIMEPHORIA</h1>
+  <div class="container">
+    This is a the current time 
+    <div id="time"></div>
+  </div>
+  <script>
+    function great(name){
+      console.log("Hello " + name);
+    }
+    setTimeout(great, 5000, "Hello");
+    function displaytime(){
+      time=new Date();
+      console.log(time);
+      document.getElementById('time').innerHTML=time;
+    }
+    setInterval(displaytime, 1000);
+  </script>
+</body>
+</html>
