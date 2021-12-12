@@ -128,9 +128,10 @@ const aa=[1,4,9,16,25];
 // console.log(aa);
 // console.log(a);
 
-let a=aa.map((curr,index,arr)=> {
-  return (curr>9) ? curr : 0;
-}) 
-a.forEach(element => {
-  if(element>0)  console.log(element) ;
-});
+// let a=aa.map((curr,index,arr)=> {
+//   return (curr>9) ? curr : 0;
+// }) 
+// a.forEach(element => {
+//   if(element>0)  console.log(element) ;
+// });
+
