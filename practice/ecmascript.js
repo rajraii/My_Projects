@@ -120,18 +120,18 @@
 // infinity - If we give infinity in splice it wil delete all element after the given index
 
 // 3.11 Map
-// Returns a new array containing  the results of calling a funcction on every element
+// Returns a new array containing 
+// the results of calling a funcction on every element
 
 const aa=[1,4,9,16,25];
 // num> 9;
 // let a=aa.map((curr, index, arr)=> {return curr>9;})
 // console.log(aa);
-// console.log(a);
 
-// let a=aa.map((curr,index,arr)=> {
-//   return (curr>9) ? curr : 0;
-// }) 
-// a.forEach(element => {
-//   if(element>0)  console.log(element) ;
+let a=aa.map((curr,index,arr)=> {
+  return (curr>9) ? curr : 0;
+}) 
+console.log(a);
+// aa.forEach(element => {
+//   if(element>9)  console.log(element) ;
 // });
-
