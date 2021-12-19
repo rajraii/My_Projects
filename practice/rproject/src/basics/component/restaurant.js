@@ -1,3 +1,4 @@
+
 // import React from 'react'
 
 // import react from "react";
@@ -28,7 +29,7 @@
 // export default App
 
 import React from 'react'
-import "./basics/component/style.css"
+import "./component/style.css"
 const restaurant = () => {
   return <>
     <div className='card-container'>
