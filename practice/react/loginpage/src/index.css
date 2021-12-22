@@ -36,6 +36,7 @@ form::after{
   z-index: 1;
   border-radius: 20px;
   background-image: linear-gradient(to bottom right, #05bbc9, #29d985);
+  background-image: linear-gradient(to bottom right, #05bbc9, #29d985);
 }
 
 
