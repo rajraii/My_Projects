@@ -8,6 +8,7 @@
 
 //  ! for file
 
-let fs = require("fs");
-let buffer = fs.readFileSync("practice.js");
-console.log(""+buffer);
+// let fs = require("fs");
+// let buffer = fs.readFileSync("practice.js");
+// console.log(""+buffer);
+// f
