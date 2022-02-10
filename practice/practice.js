@@ -242,9 +242,30 @@
 // }
 // console.log(union([1,2,3], [100,2,1,10]));
 
-function sum (arr) {
-  return arr.reduce((a,b) => a+b,0)
-};
+// function sum (arr) {
+//   return arr.reduce((a,b) => a+b,0)
+// };
 
-var res= sum(arr1) + sum(arr2);
-console.log(res);
+// var res= sum(arr1) + sum(arr2);
+// console.log(res);
+
+// arr= [1,2,3,4,5];
+// console.log(arr.slice(-3,1));
+
+// let a= 'yoooo';
+// let b= "boiiii";
+// console.log(a);
+// console.log(b);
+// console.log(a.charAt(4));
+// console.log(a.charCodeAt(4));
+// console.log(a.substring(2,6));
+// let c=a.join();
+// console.log(c);
+
+// let cp = require("child_process");
+// console.log("Trying to Open Google");
+// // cp.exec("calc");
+// cp.exec("start chrome https:\\google.com")
+// console.log("Opened Google");
+// let a= 20;
+//  os = require("os");
