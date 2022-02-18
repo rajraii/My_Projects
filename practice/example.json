@@ -1,0 +1,37 @@
+[
+  {
+    "name": "steve",
+    "last name": "Roger",
+    "freinds": ["Bruce", "Peter", "Natasha", "Tony Stark"],
+    "age": "45",
+    "address": { "city": "New york", "state": "manhattan" }
+  },
+  {
+    "name": "Peter",
+    "last name": "Roger",
+    "freinds": ["Bruce", "Peter", "Natasha", "Tony Stark"],
+    "age": "45",
+    "address": { "city": "New york", "state": "manhattan" }
+  },
+  {
+    "name": "Natasha",
+    "last name": "Roger",
+    "freinds": ["Bruce", "Peter", "Natasha", "Tony Stark"],
+    "age": "45",
+    "address": { "city": "New york", "state": "manhattan" }
+  },
+  {
+    "name": "Tony ",
+    "last name": "Roger",
+    "freinds": ["Bruce", "Peter", "Natasha", "Tony Stark"],
+    "age": "45",
+    "address": { "city": "New york", "state": "manhattan" }
+  },
+  {
+    "name": "Tony ",
+    "last name": "Roger",
+    "freinds": ["Bruce", "Peter", "Natasha", "Tony Stark"],
+    "age": "45",
+    "address": { "city": "New york", "state": "manhattan" }
+  }
+]
