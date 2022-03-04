@@ -35,7 +35,7 @@
 
 // obj.f();
 
-'use strict'
+// 'use strict'
 
 // console.log(this); - return {}
 
@@ -47,3 +47,4 @@
 // obj{funct} - returns object itself
 
 // obj{func(func)} - returns undefined
+
