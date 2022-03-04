@@ -269,3 +269,13 @@
 // console.log("Opened Google");
 // let a= 20;
 //  os = require("os");
+
+
+const person1= {
+  name: "raj",
+  age: 21
+};
+const person2 = {...person1};
+person2.name= 'mayank';
+person2.age= 24;
+console.log(person2);
