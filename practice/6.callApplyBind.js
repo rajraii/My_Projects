@@ -36,3 +36,4 @@ let showDetails = function(city, car){
 
 let showDetailBind = showDetails.bind(person2,'noida', 'BMW');
 showDetailBind();
+// 
