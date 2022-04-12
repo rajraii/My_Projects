@@ -1,0 +1,41 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #fafafa;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+}
+
+nav > img {
+  height: 44px;
+  margin: 12px 18px;
+  margin-right: auto;
+}
+
+.nav--links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 500px;
+}
+
+.nav--links > li{
+  cursor: pointer;
+  list-style: none;
+  color: #0a0a0a;
+  padding: 3px 8px;
+}
+
+.nav--links > li:hover{
+  border-radius: 7px;
+  background-color: #ffffff;
+  box-shadow: 1.2px 3px #fbfbfb;
+
+}
