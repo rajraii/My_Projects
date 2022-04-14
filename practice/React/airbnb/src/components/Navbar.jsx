@@ -1,10 +1,12 @@
 import React from 'react'
-import logo from '../images/airbnb.svg'
+// import logo from 'images/airbnb.svg'
 import '../style.css'
 const Navbar = () => {
   return (
     <nav className='nav'>
-      <img src={logo} alt="airbnb" className="nav--logo" />
+      <div className="nav--logo">
+        <img src="images/airbnb.svg" alt="airbnb" className="nav--logo" />
+      </div>
       
       <ul className='nav--links'>
         <li>Home</li>

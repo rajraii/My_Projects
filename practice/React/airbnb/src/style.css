@@ -5,18 +5,28 @@
   padding: 0;
 }
 
+body{
+  width: 100%;
+  height: 100%;
+  overflow-x:hidden;
+}
+
 nav {
   background-color: #fafafa;
   display: flex;
-  position: fixed;
+  position: sticky;
+  top: 0;
   width: 100%;
   z-index: 10000;
 }
 
-nav > img {
+nav> div{
+  margin-right: auto;
+}
+
+nav > div > img {
   height: 44px;
   margin: 12px 18px;
-  margin-right: auto;
 }
 
 .nav--links {
@@ -37,5 +47,59 @@ nav > img {
   border-radius: 7px;
   background-color: #ffffff;
   box-shadow: 1.2px 3px #fbfbfb;
+}
 
+.Hero {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 6rem 4rem;
+}
+.Hero> h1 {
+  font-style: poppins;
+}
+
+.Card{
+  width: 175px;
+  font-size: 12px;
+  margin: 3rem 2rem;
+  position: relative;
+}
+#grey{
+  color: #918E9B;
+}
+.Card--img{
+  width: 100%;
+  border-radius: 9px;
+  height: 240px;
+}
+.Card--status{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.Card--status > span{
+  margin-right: 3px;
+}
+
+/* .card--list::-webkit-scrollbar {
+  display: none;
+} */
+.card--list{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow: auto;
+  justify-content: center;
+  /* align-items: center; */
+}
+.card--sold{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 4px 4px;
+  padding: 3px 4px;
+  font-size: 12px;
+  background-color: #fff;
 }
